@@ -1,0 +1,38 @@
+{
+  "name": "nsp-api",
+  "version": "1.0.0",
+  "description": "Node.js module wrapper for the Node Security Project API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nodesecurity/nsp-api.git"
+  },
+  "keywords": [
+    "nsp",
+    "node",
+    "security",
+    "api",
+    "lib",
+    "client",
+    "module",
+    "wrapper",
+    "validate",
+    "shrinkwrap",
+    "package"
+  ],
+  "author": "Node Security Project",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodesecurity/nsp-api/issues"
+  },
+  "homepage": "https://github.com/nodesecurity/nsp-api",
+  "dependencies": {
+    "request": "^2.42.0"
+  },
+  "devDependencies": {
+    "precommit-hook": "^1.0.7"
+  }
+}
