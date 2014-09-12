@@ -41,4 +41,3 @@ nsp_api.validateModule('yar', '0.1.0', function(err, results) {
 });
 
 ```
-
