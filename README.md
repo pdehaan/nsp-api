@@ -13,7 +13,7 @@ var nsp_api = require('nsp-api');
 nsp_api.validateModule(module, version, function (err, results){..});
 
 // validate a full shrinkwrap against Node Security Project database
-exports.validateShrinkwrap(shrinkwrap, function (err, results){..});
+nsp_api.validateShrinkwrap(shrinkwrap, function (err, results){..});
 ```
 
 ## Example
