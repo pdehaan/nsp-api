@@ -1,7 +1,12 @@
-nsp-api
-================================
+# nsp-api
 
 `nsp-api` is a simple node wrapper for the Node Security Project API.
+
+## Badges
+
+[![Build Status](https://travis-ci.org/nodesecurity/nsp-api.svg?branch=master)](https://travis-ci.org/nodesecurity/nsp-api)
+
+[![Dependency Status](https://david-dm.org/nodesecurity/nsp-api.svg)](https://david-dm.org/nodesecurity/nsp-api)
 
 ## Usage
 
