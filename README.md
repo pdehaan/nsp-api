@@ -7,26 +7,26 @@ nsp-api
 
 ```
 // require it as a normal node.js module
-var nsp_api = require('nsp-api');
+var nspAPI = require('nsp-api');
 
 // validate a module against Node Security Project database
-nsp_api.validateModule(module, version, function (err, results){..});
+nspAPI.validateModule(module, version, function (err, results){..});
 
 // validate a full shrinkwrap against Node Security Project database
-nsp_api.validateShrinkwrap(shrinkwrap, function (err, results){..});
+nspAPI.validateShrinkwrap(shrinkwrap, function (err, results){..});
 ```
 
 ## Example
 
 ```
-var nsp_api = require('nsp-api');
+var nspAPI = require('nsp-api');
 
-nsp_api.validateModule('tunnel-agent', '0.4.0', function(err, results) {
+nspAPI.validateModule('tunnel-agent', '0.4.0', function(err, results) {
     console.log(results);
     // undefined // (no vulnerabilities that we know, yet)
 });
 
-nsp_api.validateModule('yar', '0.1.0', function(err, results) {
+nspAPI.validateModule('yar', '0.1.0', function(err, results) {
     console.log(results);
     // [{
     //    title: 'Yar Denial-of-Service',
