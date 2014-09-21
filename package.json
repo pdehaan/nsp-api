@@ -1,6 +1,6 @@
 {
   "name": "nsp-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Node.js module wrapper for the Node Security Project API",
   "main": "index.js",
   "scripts": {
