@@ -4,7 +4,7 @@
   "description": "Node.js module wrapper for the Node Security Project API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "make test-cov"
   },
   "repository": {
     "type": "git",
@@ -33,6 +33,7 @@
     "request": "^2.42.0"
   },
   "devDependencies": {
+    "lab": "^4.4.4",
     "precommit-hook": "^1.0.7"
   }
 }
