@@ -12,10 +12,7 @@ exports.validateModule = function (module, version, cb) {
          },
         json: true
     }, function (err, response, body) {
-        if (err) {
-            return cb(err, null);
-        }
-        return cb(null, body);
+        return cb(err, body);
     });
 };
 
@@ -28,9 +25,6 @@ exports.validateShrinkwrap = function (shrinkwrap, cb) {
         },
         json: shrinkwrap
     }, function (err, response, body) {
-        if (err) {
-            return cb(err, null);
-        }
-        return cb(null, body);
+        return cb(err, body);
     });
 };
