@@ -22,22 +22,22 @@ nsp_api.validateShrinkwrap(shrinkwrap, function (err, results){..});
 var nsp_api = require('nsp-api');
 
 nsp_api.validateModule('tunnel-agent', '0.4.0', function(err, results) {
-  console.log(results);
-  // undefined // (no vulnerabilities that we know, yet)
+    console.log(results);
+    // undefined // (no vulnerabilities that we know, yet)
 });
 
 nsp_api.validateModule('yar', '0.1.0', function(err, results) {
-  console.log(results);
-  // [{ 
-  //    title: 'Yar Denial-of-Service',
-  //    author: 'Reid Burke',
-  //    module_name: 'yar',
-  //    publish_date: 'Mon Jun 16 2014 12:29:10 GMT-0700 (PDT)',
-  //    cves: [ [Object] ],
-  //    vulnerable_versions: '<2.2.0',
-  //    patched_versions: '>=2.2.0',
-  //    url: 'yar-DoS' 
-  // }]
+    console.log(results);
+    // [{
+    //    title: 'Yar Denial-of-Service',
+    //    author: 'Reid Burke',
+    //    module_name: 'yar',
+    //    publish_date: 'Mon Jun 16 2014 12:29:10 GMT-0700 (PDT)',
+    //    cves: [ [Object] ],
+    //    vulnerable_versions: '<2.2.0',
+    //    patched_versions: '>=2.2.0',
+    //    url: 'yar-DoS'
+    // }]
 });
 
 ```
