@@ -8,10 +8,10 @@ var before = lab.before;
 var after = lab.after;
 var expect = Lab.expect;
 
-suite('validate', function () {
+suite('validate', function() {
 
-    test('returns vulnerability for module', function (done) {
-        nspAPI.validateModule('yar', '0.1.0', function (err, results) {
+    test('returns vulnerability for module', function(done) {
+        nspAPI.validateModule('yar', '0.1.0', function(err, results) {
             expect(err).to.eql(null);
             expect(results).to.be.an('array');
             expect(results).to.have.length.gt(0);
@@ -31,8 +31,8 @@ suite('validate', function () {
         }
     };
 
-    test('returns vulnerability for shrinkwrap.json', function (done) {
-        nspAPI.validateShrinkwrap(shrinkwrap, function (err, results) {
+    test('returns vulnerability for shrinkwrap.json', function(done) {
+        nspAPI.validateShrinkwrap(shrinkwrap, function(err, results) {
             expect(err).to.eql(null);
             expect(results).to.be.an('array');
             expect(results).to.have.length.gt(0);

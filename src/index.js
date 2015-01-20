@@ -2,7 +2,7 @@ var request = require('request');
 
 exports = module.exports;
 
-exports.validateModule = function (module, version, cb) {
+exports.validateModule = function(module, version, cb) {
     var url = 'https://nodesecurity.io/validate/' + module + '/' + version;
     request({
         url: url,
@@ -11,12 +11,12 @@ exports.validateModule = function (module, version, cb) {
             'content-type': 'application/json'
          },
         json: true
-    }, function (err, response, body) {
+    }, function(err, response, body) {
         return cb(err, body);
     });
 };
 
-exports.validateShrinkwrap = function (shrinkwrap, cb) {
+exports.validateShrinkwrap = function(shrinkwrap, cb) {
     request({
         url: 'https://nodesecurity.io/validate/shrinkwrap',
         method: 'POST',
@@ -24,7 +24,7 @@ exports.validateShrinkwrap = function (shrinkwrap, cb) {
             'content-type': 'application/json'
         },
         json: shrinkwrap
-    }, function (err, response, body) {
+    }, function(err, response, body) {
         return cb(err, body);
     });
 };

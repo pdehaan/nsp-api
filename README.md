@@ -4,9 +4,7 @@
 
 ## Badges
 
-[![Build Status](https://travis-ci.org/nodesecurity/nsp-api.svg?branch=master)](https://travis-ci.org/nodesecurity/nsp-api)
-
-[![Dependency Status](https://david-dm.org/nodesecurity/nsp-api.svg)](https://david-dm.org/nodesecurity/nsp-api)
+[![Build Status](https://travis-ci.org/nodesecurity/nsp-api.svg?branch=master)](https://travis-ci.org/nodesecurity/nsp-api)[![Dependency Status](https://david-dm.org/nodesecurity/nsp-api.svg)](https://david-dm.org/nodesecurity/nsp-api)[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/nodesecurity/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)[![Codecov](https://img.shields.io/codecov/c/github/codecov/example-python.svg)]()
 
 ## Usage
 
